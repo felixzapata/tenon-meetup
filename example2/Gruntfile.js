@@ -49,7 +49,7 @@
                         '{<%= yeoman.tmp %>,<%= yeoman.app %>}/scripts/{,*/}*.js',
                         '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
                     ],
-                    tasks: []
+                    tasks : ['tenon']
                 }
             },
             connect: {
@@ -157,7 +157,7 @@
                         snippet: true,
                         asyncLim: 2
                     },
-                    src: ['*.html']
+                    src: ['<%= yeoman.tmp %>/{,*/}*.html']
                 }
             }
         });

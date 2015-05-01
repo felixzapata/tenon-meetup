@@ -1,0 +1,125 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+body{line-height:1}
+ol, ul{list-style:none}
+blockquote, q{quotes:none}
+blockquote:before, blockquote:after, q:before, q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display:block}
+/* Added by Tanta from https://github.com/murtaugh/HTML5-Reset/blob/master/_/css/style.css */
+html{overflow-y:scroll} /* force a vertical scrollbar to prevent a jumpy page */
+button{width:auto;overflow:visible} /* make buttons play nice in IE */
+del{text-decoration:line-through}
+abbr[title], dfn[title]{border-bottom:1px dotted #000;cursor:help}
+.clickable, label, input[type=button], input[type=submit], input[type=reset], button{cursor:pointer} /* hand cursor on clickable elements */
+pre, code, kbd, samp{font-family:monospace, sans-serif} /* standardize any monospaced elements */
+/* Added by Tanta to reset form elements */
+input, textarea, select, option{margin:0;padding:0;border:1px solid #000;background:none;font:100%/100% Arial, sans-serif}
+/* Added by Tanta to reset strong, em*/
+strong, b {font-weight:bold}
+em, i {font-style:italic}
+/*img {max-width:100%; /*Prevent stretching of full-size and large-size images with height and width attributes in IE8 width: auto; height:auto;}*/
+
+.clr {clear:both}
+.flt {float:left}
+.frt {float:right}
+.offscreen {position:absolute;top:-1500em;left:0;width:1px;height:1px;overflow:hidden}
+
+@font-face {
+    font-family: 'homiziolight';
+    src: url('fonts/light-webfont.eot');
+    src: url('fonts/light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/light-webfont.woff') format('woff'),
+         url('fonts/light-webfont.ttf') format('truetype'),
+         url('fonts/light-webfont.svg#homiziolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body { font-size:62.5%; color:#4e4e4e; font-family: "Trebuchet MS", "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif}
+
+#logo { float:left }
+#navBar { float:right }
+	#navBar a { color:#4e4e4e; font-size:1.8em; text-decoration:none }
+		#navBar .sel a, #navBar a:hover {color:#6dcff0;  }
+
+	#navBar li { display:inline; padding-left:2em  }
+	.about { position: relative; }
+	.about ul { position:absolute; left:0; top: 3em; width:36em }
+	#navBar li li { padding-left:1em; padding-right:.5em; background:url("../img/bg_pipe.png") no-repeat 0 0 }
+		#navBar li li:first-child { padding-left:0; background:none }
+	#navBar ul ul a { font-size:1.4em }
+
+.btn { display:block; }
+.btn a, .btn input { display:inline-block; padding:.6em 1.6em; border-radius:5px; background-color:#6dcff0; text-align:center; text-decoration:none; color:#fff; font-size:1.4em;}
+.more { text-align:right }
+.up, .more, .back { display:block }
+	.up a, .more a, .back a{ color:#505050; font-size:1.2em }
+		.up a:hover, .more a:hover { text-decoration:none }
+	.up a { padding-left:1.9em; background:url("../img/i_subir.png") no-repeat 0 3px; }
+
+.title { padding:3em 0; border-bottom:1px solid #c8c8c8 }
+	.title h2, .title h3 { float:left; color:#6dcff0; font-size:2.4em; font-family: "homiziolight"  }
+	.title .up, .title .close { float:right; padding-top:.7em }
+
+#entry { padding:4em 2em; border-top:1px solid #c8c8c8; border-bottom:1px solid #c8c8c8; text-align:center }
+
+.filtro { width:41.8em; margin:0 auto; padding:2.7em;  }
+	.filtro li { display:inline; padding-left:1em; padding-right:.5em; background:url("../img/bg_pipe.png") no-repeat 0 0 }
+		.filtro li:first-child { padding-left:0; background:none }
+	.filtro a {color:#777; font-size:1.4em; text-decoration:none }
+
+.mosaico { margin-bottom:2.7em; border-top:1px solid #c8c8c8 }
+	.mosaico li { float:left; }
+	.mosaico img { display:block; margin:0; padding:0 }
+
+.ficha { padding-top:3.9em; border-bottom:1px solid #cdcdcd }
+	.ficha .flt { position:relative; border:1px solid #cdcdcd; border-bottom:none }
+		.ficha .flt img { display:block; margin:0; padding:0; }
+		.ficha .more { position: absolute; bottom:1px; right:0; display:block; padding:.6em 1.6em; background:#5d5b5b;  }
+			.ficha .more a { color:#fff; font-size:1.2em; text-decoration:none;  }
+				.ficha .more a:hover { text-decoration:underline }
+	.ficha .frt { width:21.7em; padding-bottom:2em }
+		.close { display:block; text-align:right }
+		.ficha dl { padding-top:1.7em }
+			.ficha dt { margin-bottom:.2em;  color:#333;  font-weight: bold; font-size:1.4em}
+			.ficha dd {margin-bottom:1.7em; color:#777; font-size:1.4em }
+
+.sobremi { padding:2em; border:1px solid #eaeaea }
+	.sobremi .title { padding:0 0 2.4em; border-bottom:none }
+
+.tabs li { float:left }
+	.tabs img { display:block; margin:0; padding:0 }
+
+form { padding:2.1em 0; }
+	form p { margin-bottom:.5em; }
+	label { color:#333; font-weight:bold; font-size:1.4em; }
+	input[type="text"], textarea { display:block; margin-top:.5em; padding:.5em 1em; border-radius:5px; border:1px solid #ededed; background:#f2f2f2 url("../img/bg_form.png") repeat-x 0 0 }
+	input[type="submit"] { border:none }
+	textarea, input[type="text"] { width:100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;  box-sizing: border-box; }
+	.dat1 { width:40.3em; }
+	.dat2 { width:40.6em }
+	.dat1 p { width:19.6em; margin-bottom:1em }
+		.dat1 p:first-child {  float:left }
+		.dat1 p:last-child {  float:right }
+	form .btn { margin-top:.4em; text-align:right }
+
+#footer h2 { margin-bottom:.6em }
+#footer h2, #footer span { color:#fff; font-size:1.2em }
+#footer a { color:#f6b61b; font-size:1.2em; text-decoration:none }
+	#footer a:hover { text-decoration:underline }
+
+#footer .cl:first-child { margin-bottom:4.2em }
+.trabajos {float:left; width:40em }
+	.trabajos li, .contacto li { display:inline-block; padding-right:1em }
+		.trabajos img { display:block; margin:0; padding:0; border:1px solid #fff; }
+.contacto {float:left; width:20.5em }
+	.contacto ul { padding-bottom:1.6em }
+.tags {float:left; width:20.7em }
+#footer .copy { color:#6dcff0  }
+	#footer .copy span { padding:0; background:none; color:#f6b61b; font-size:1em }
+
+.legal span { padding-left:1em; padding-right:1em; background:url("../img/bg_pipe.png") no-repeat 0 3px }
+	.legal .flt span:first-child, .legal .frt { padding-left:0; background: none; }

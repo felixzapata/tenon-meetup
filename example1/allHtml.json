@@ -1,0 +1,755 @@
+{
+  "cactus-rentabilidad.html": {
+    "apiErrors": [],
+    "documentSize": 20527,
+    "globalStats": {
+      "errorDensity": "156",
+      "warningDensity": "12",
+      "allDensity": "168",
+      "stdDev": "402"
+    },
+    "message": "success",
+    "request": {
+      "certainty": "0",
+      "docID": "47ECDE3B-CF3C-745D-7443-1A33001C54D4",
+      "importance": "1",
+      "key": "null",
+      "level": "AA",
+      "priority": "0",
+      "projectID": "DEFAULT_PROJECT",
+      "ref": "0",
+      "reportID": "163c60b1-c69c-43b3-8446-36648d9f0cb6",
+      "responseID": "954604c380dbe5a5fabe0ccf1df72641",
+      "uaString": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36",
+      "url": "https://tenon.io/api/file.php?docID=47ECDE3B-CF3C-745D-7443-1A33001C54D4",
+      "viewport": {
+        "height": 768,
+        "width": 1024
+      },
+      "fragment": "0",
+      "store": "0"
+    },
+    "responseExecTime": "0.51",
+    "responseTime": "2015-04-23T14:17:55.709Z",
+    "resultSet": [],
+    "resultSummary": {
+      "density": {
+        "allDensity": 0,
+        "errorDensity": 0,
+        "warningDensity": 0
+      },
+      "issues": {
+        "totalErrors": 0,
+        "totalIssues": 0,
+        "totalWarnings": 0
+      },
+      "issuesByLevel": {
+        "A": {
+          "count": 0
+        },
+        "AA": {
+          "count": 0
+        },
+        "AAA": {
+          "count": 0
+        }
+      },
+      "tests": {
+        "failing": 0,
+        "passing": 56,
+        "total": 56
+      }
+    },
+    "sourceHash": "d5a0eacbb5e9f7c5e36d1e53b6b7f175",
+    "status": 200,
+    "clientScriptErrors": [
+      {
+        "message": "ReferenceError: Can't find variable: $",
+        "stacktrace": [
+          {
+            "file": "https://tenon.io/api/file.php?docID=47ECDE3B-CF3C-745D-7443-1A33001C54D4",
+            "line": 110,
+            "function": ""
+          }
+        ]
+      }
+    ],
+    "log": null
+  },
+  "calculo.html": {
+    "apiErrors": [],
+    "documentSize": 20759,
+    "globalStats": {
+      "errorDensity": "156",
+      "warningDensity": "12",
+      "allDensity": "168",
+      "stdDev": "402"
+    },
+    "message": "success",
+    "request": {
+      "certainty": "0",
+      "docID": "D12AD414-BF4F-696F-6103-187098BFBF6A",
+      "importance": "1",
+      "key": "null",
+      "level": "AA",
+      "priority": "0",
+      "projectID": "DEFAULT_PROJECT",
+      "ref": "0",
+      "reportID": "7ac4584b-93bc-4f46-ab41-d3534c3422db",
+      "responseID": "3b560b7600ada03953dc970fbbe14f03",
+      "uaString": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36",
+      "url": "https://tenon.io/api/file.php?docID=D12AD414-BF4F-696F-6103-187098BFBF6A",
+      "viewport": {
+        "height": 768,
+        "width": 1024
+      },
+      "fragment": "0",
+      "store": "0"
+    },
+    "responseExecTime": "0.53",
+    "responseTime": "2015-04-23T14:17:55.894Z",
+    "resultSet": [
+      {
+        "bpID": 1,
+        "certainty": 100,
+        "errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+        "errorSnippet": "&lt;img src=\"img/logo-cactus-calculo.png\" pagespeed_url_hash=\"2110214739\" onload=\"pagespeed.CriticalImages.checkImageForCriticality(this);\"&gt;",
+        "errorTitle": "Image missing alt attribute",
+        "position": {
+          "column": 24,
+          "line": 34
+        },
+        "priority": 81,
+        "ref": "null",
+        "resultTitle": "Provide alt attributes for IMG elements",
+        "signature": "d0f226f1cddc19df088b879cf30bcce2",
+        "standards": [
+          "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+        ],
+        "tID": 9,
+        "xpath": "/html/body/header[1]/div[1]/div[1]/h1[1]/a[1]/img[1]"
+      }
+    ],
+    "resultSummary": {
+      "density": {
+        "allDensity": 5,
+        "errorDensity": 5,
+        "warningDensity": 0
+      },
+      "issues": {
+        "totalErrors": 1,
+        "totalIssues": 1,
+        "totalWarnings": 0
+      },
+      "issuesByLevel": {
+        "A": {
+          "count": 1,
+          "pct": 100
+        },
+        "AA": {
+          "count": 0,
+          "pct": 0
+        },
+        "AAA": {
+          "count": 0,
+          "pct": 0
+        }
+      },
+      "tests": {
+        "failing": 1,
+        "passing": 55,
+        "total": 56
+      }
+    },
+    "sourceHash": "92fa52be51f6dc77d7580f5da2e08e87",
+    "status": 200,
+    "clientScriptErrors": [
+      {
+        "message": "ReferenceError: Can't find variable: $",
+        "stacktrace": [
+          {
+            "file": "https://tenon.io/api/file.php?docID=D12AD414-BF4F-696F-6103-187098BFBF6A",
+            "line": 105,
+            "function": ""
+          }
+        ]
+      }
+    ],
+    "log": null
+  },
+  "copyright.html": {
+    "apiErrors": [],
+    "documentSize": 19899,
+    "globalStats": {
+      "errorDensity": "156",
+      "warningDensity": "12",
+      "allDensity": "168",
+      "stdDev": "402"
+    },
+    "message": "success",
+    "request": {
+      "certainty": "0",
+      "docID": "BA52D960-9A3E-2244-DD71-607EC429296A",
+      "importance": "1",
+      "key": "null",
+      "level": "AA",
+      "priority": "0",
+      "projectID": "DEFAULT_PROJECT",
+      "ref": "0",
+      "reportID": "e78a0121-4a3a-400e-b229-bfad41970b6f",
+      "responseID": "b7712b6b04d79944bb357e817e3bf5f0",
+      "uaString": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36",
+      "url": "https://tenon.io/api/file.php?docID=BA52D960-9A3E-2244-DD71-607EC429296A",
+      "viewport": {
+        "height": 768,
+        "width": 1024
+      },
+      "fragment": "0",
+      "store": "0"
+    },
+    "responseExecTime": "0.59",
+    "responseTime": "2015-04-23T14:18:02.268Z",
+    "resultSet": [],
+    "resultSummary": {
+      "density": {
+        "allDensity": 0,
+        "errorDensity": 0,
+        "warningDensity": 0
+      },
+      "issues": {
+        "totalErrors": 0,
+        "totalIssues": 0,
+        "totalWarnings": 0
+      },
+      "issuesByLevel": {
+        "A": {
+          "count": 0
+        },
+        "AA": {
+          "count": 0
+        },
+        "AAA": {
+          "count": 0
+        }
+      },
+      "tests": {
+        "failing": 0,
+        "passing": 56,
+        "total": 56
+      }
+    },
+    "sourceHash": "b80699eafd3a4310dbeda272cbdb35a0",
+    "status": 200,
+    "clientScriptErrors": [
+      {
+        "message": "ReferenceError: Can't find variable: $",
+        "stacktrace": [
+          {
+            "file": "https://tenon.io/api/file.php?docID=BA52D960-9A3E-2244-DD71-607EC429296A",
+            "line": 102,
+            "function": ""
+          }
+        ]
+      }
+    ],
+    "log": null
+  },
+  "contacto.html": {
+    "apiErrors": [],
+    "documentSize": 19394,
+    "globalStats": {
+      "errorDensity": "156",
+      "warningDensity": "12",
+      "allDensity": "168",
+      "stdDev": "402"
+    },
+    "message": "success",
+    "request": {
+      "certainty": "0",
+      "docID": "80328958-10D3-F256-2775-4EA0A76E1CAB",
+      "importance": "1",
+      "key": "null",
+      "level": "AA",
+      "priority": "0",
+      "projectID": "DEFAULT_PROJECT",
+      "ref": "0",
+      "reportID": "5c3a3271-29ff-4cdd-cc69-b18d5e893f84",
+      "responseID": "e1f940819a7a7542d00e3f45b70d126c",
+      "uaString": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36",
+      "url": "https://tenon.io/api/file.php?docID=80328958-10D3-F256-2775-4EA0A76E1CAB",
+      "viewport": {
+        "height": 768,
+        "width": 1024
+      },
+      "fragment": "0",
+      "store": "0"
+    },
+    "responseExecTime": "0.55",
+    "responseTime": "2015-04-23T14:18:02.147Z",
+    "resultSet": [],
+    "resultSummary": {
+      "density": {
+        "allDensity": 0,
+        "errorDensity": 0,
+        "warningDensity": 0
+      },
+      "issues": {
+        "totalErrors": 0,
+        "totalIssues": 0,
+        "totalWarnings": 0
+      },
+      "issuesByLevel": {
+        "A": {
+          "count": 0
+        },
+        "AA": {
+          "count": 0
+        },
+        "AAA": {
+          "count": 0
+        }
+      },
+      "tests": {
+        "failing": 0,
+        "passing": 56,
+        "total": 56
+      }
+    },
+    "sourceHash": "10c812d4c41304ad8076a3daccc8abb3",
+    "status": 200,
+    "clientScriptErrors": [
+      {
+        "message": "ReferenceError: Can't find variable: $",
+        "stacktrace": [
+          {
+            "file": "https://tenon.io/api/file.php?docID=80328958-10D3-F256-2775-4EA0A76E1CAB",
+            "line": 101,
+            "function": ""
+          }
+        ]
+      }
+    ],
+    "log": null
+  },
+  "index.html": {
+    "apiErrors": [],
+    "documentSize": 4732,
+    "globalStats": {
+      "errorDensity": "156",
+      "warningDensity": "12",
+      "allDensity": "168",
+      "stdDev": "402"
+    },
+    "message": "success",
+    "request": {
+      "certainty": "0",
+      "docID": "CA6EDCE5-680F-C6A0-FE8B-BDE3C6C89470",
+      "importance": "1",
+      "key": "null",
+      "level": "AA",
+      "priority": "0",
+      "projectID": "DEFAULT_PROJECT",
+      "ref": "0",
+      "reportID": "fbab88f4-24b0-4911-d768-d650265db34f",
+      "responseID": "39728643726395436a925f2de176efab",
+      "uaString": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36",
+      "url": "https://tenon.io/api/file.php?docID=CA6EDCE5-680F-C6A0-FE8B-BDE3C6C89470",
+      "viewport": {
+        "height": 768,
+        "width": 1024
+      },
+      "fragment": "0",
+      "store": "0"
+    },
+    "responseExecTime": "0.21",
+    "responseTime": "2015-04-23T14:18:08.544Z",
+    "resultSet": [
+      {
+        "bpID": 26,
+        "certainty": 100,
+        "errorDescription": "This page's TITLE is blank. The page title is the first thing announced by assistive technologies and is therefore an important wayfinding cue. Provide a page TITLE that is clear, informative, unique, and concise.",
+        "errorSnippet": "&lt;title style=\"\"&gt; &lt;/title&gt;",
+        "errorTitle": "Empty page title",
+        "position": {
+          "column": 1,
+          "line": 6
+        },
+        "priority": 44,
+        "ref": "null",
+        "resultTitle": "Provide clear, informative TITLE elements on all pages",
+        "signature": "7d6f46b3cd7d5e4231720a0197189ace",
+        "standards": [
+          "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.2 Page Titled"
+        ],
+        "tID": 65,
+        "xpath": "/html/head[1]/title[1]"
+      },
+      {
+        "bpID": 49,
+        "certainty": 100,
+        "errorDescription": "Labels exist to inform the user of what is expected in a specific form field. This label is empty and therefore some users are likely to be unable to use the form.",
+        "errorSnippet": "&lt;label for=\"search-a\"&gt;&lt;/label&gt;",
+        "errorTitle": "Empty label found",
+        "position": {
+          "column": 1,
+          "line": 13
+        },
+        "priority": 76,
+        "ref": "null",
+        "resultTitle": "Provide explicit labels for form fields",
+        "signature": "da3ab5f5c5870773eff5948a1a510d38",
+        "standards": [
+          "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content",
+          "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships",
+          "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 3.3.2 Labels or Instructions",
+          "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+        ],
+        "tID": 71,
+        "xpath": "/html/body/form[1]/label[1]"
+      }
+    ],
+    "resultSummary": {
+      "density": {
+        "allDensity": 65,
+        "errorDensity": 43,
+        "warningDensity": 22
+      },
+      "issues": {
+        "totalErrors": 2,
+        "totalIssues": 2,
+        "totalWarnings": 0
+      },
+      "issuesByLevel": {
+        "A": {
+          "count": 2,
+          "pct": 100
+        },
+        "AA": {
+          "count": 0,
+          "pct": 0
+        },
+        "AAA": {
+          "count": 0,
+          "pct": 0
+        }
+      },
+      "tests": {
+        "failing": 3,
+        "passing": 53,
+        "total": 56
+      }
+    },
+    "sourceHash": "2422d93ce7e1248f1270112a4d268264",
+    "status": 200,
+    "clientScriptErrors": [],
+    "log": null
+  },
+  "documentacion.html": {
+    "apiErrors": [],
+    "documentSize": 20063,
+    "globalStats": {
+      "errorDensity": "156",
+      "warningDensity": "12",
+      "allDensity": "168",
+      "stdDev": "402"
+    },
+    "message": "success",
+    "request": {
+      "certainty": "0",
+      "docID": "4B61DF4A-486E-E6A6-FA82-59A9A4B410AF",
+      "importance": "1",
+      "key": "null",
+      "level": "AA",
+      "priority": "0",
+      "projectID": "DEFAULT_PROJECT",
+      "ref": "0",
+      "reportID": "353ae093-58eb-44b5-e686-9961618f8417",
+      "responseID": "3840698937b1ff516c21fddac1deada7",
+      "uaString": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36",
+      "url": "https://tenon.io/api/file.php?docID=4B61DF4A-486E-E6A6-FA82-59A9A4B410AF",
+      "viewport": {
+        "height": 768,
+        "width": 1024
+      },
+      "fragment": "0",
+      "store": "0"
+    },
+    "responseExecTime": "0.51",
+    "responseTime": "2015-04-23T14:18:09.123Z",
+    "resultSet": [],
+    "resultSummary": {
+      "density": {
+        "allDensity": 0,
+        "errorDensity": 0,
+        "warningDensity": 0
+      },
+      "issues": {
+        "totalErrors": 0,
+        "totalIssues": 0,
+        "totalWarnings": 0
+      },
+      "issuesByLevel": {
+        "A": {
+          "count": 0
+        },
+        "AA": {
+          "count": 0
+        },
+        "AAA": {
+          "count": 0
+        }
+      },
+      "tests": {
+        "failing": 0,
+        "passing": 56,
+        "total": 56
+      }
+    },
+    "sourceHash": "85a52da487e513133dc50a09f35b36dd",
+    "status": 200,
+    "clientScriptErrors": [
+      {
+        "message": "ReferenceError: Can't find variable: $",
+        "stacktrace": [
+          {
+            "file": "https://tenon.io/api/file.php?docID=4B61DF4A-486E-E6A6-FA82-59A9A4B410AF",
+            "line": 113,
+            "function": ""
+          }
+        ]
+      }
+    ],
+    "log": null
+  },
+  "modulo-seguridad-social.html": {
+    "apiErrors": [],
+    "documentSize": 19918,
+    "globalStats": {
+      "errorDensity": "156",
+      "warningDensity": "12",
+      "allDensity": "168",
+      "stdDev": "402"
+    },
+    "message": "success",
+    "request": {
+      "certainty": "0",
+      "docID": "E7C9F9F3-3AE1-2030-64C9-5176994A7F39",
+      "importance": "1",
+      "key": "null",
+      "level": "AA",
+      "priority": "0",
+      "projectID": "DEFAULT_PROJECT",
+      "ref": "0",
+      "reportID": "6e017b2a-af9e-47b3-d939-3713ded5b051",
+      "responseID": "6f2439f55af6799679689ae0f9ecc7e0",
+      "uaString": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36",
+      "url": "https://tenon.io/api/file.php?docID=E7C9F9F3-3AE1-2030-64C9-5176994A7F39",
+      "viewport": {
+        "height": 768,
+        "width": 1024
+      },
+      "fragment": "0",
+      "store": "0"
+    },
+    "responseExecTime": "0.66",
+    "responseTime": "2015-04-23T14:18:15.457Z",
+    "resultSet": [],
+    "resultSummary": {
+      "density": {
+        "allDensity": 0,
+        "errorDensity": 0,
+        "warningDensity": 0
+      },
+      "issues": {
+        "totalErrors": 0,
+        "totalIssues": 0,
+        "totalWarnings": 0
+      },
+      "issuesByLevel": {
+        "A": {
+          "count": 0
+        },
+        "AA": {
+          "count": 0
+        },
+        "AAA": {
+          "count": 0
+        }
+      },
+      "tests": {
+        "failing": 0,
+        "passing": 56,
+        "total": 56
+      }
+    },
+    "sourceHash": "7d4da782ae46be0dbb2474085dd6737e",
+    "status": 200,
+    "clientScriptErrors": [
+      {
+        "message": "ReferenceError: Can't find variable: $",
+        "stacktrace": [
+          {
+            "file": "https://tenon.io/api/file.php?docID=E7C9F9F3-3AE1-2030-64C9-5176994A7F39",
+            "line": 98,
+            "function": ""
+          }
+        ]
+      }
+    ],
+    "log": null
+  },
+  "modulo-pensiones.html": {
+    "apiErrors": [],
+    "documentSize": 20147,
+    "globalStats": {
+      "errorDensity": "156",
+      "warningDensity": "12",
+      "allDensity": "168",
+      "stdDev": "402"
+    },
+    "message": "success",
+    "request": {
+      "certainty": "0",
+      "docID": "9F26BCAF-40A8-D248-DA93-7A6103E84C44",
+      "importance": "1",
+      "key": "null",
+      "level": "AA",
+      "priority": "0",
+      "projectID": "DEFAULT_PROJECT",
+      "ref": "0",
+      "reportID": "91edfef0-bb75-426b-ac30-84ab0eaace87",
+      "responseID": "affee0437a28165204d21c727f8b0e38",
+      "uaString": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36",
+      "url": "https://tenon.io/api/file.php?docID=9F26BCAF-40A8-D248-DA93-7A6103E84C44",
+      "viewport": {
+        "height": 768,
+        "width": 1024
+      },
+      "fragment": "0",
+      "store": "0"
+    },
+    "responseExecTime": "0.51",
+    "responseTime": "2015-04-23T14:18:15.126Z",
+    "resultSet": [],
+    "resultSummary": {
+      "density": {
+        "allDensity": 0,
+        "errorDensity": 0,
+        "warningDensity": 0
+      },
+      "issues": {
+        "totalErrors": 0,
+        "totalIssues": 0,
+        "totalWarnings": 0
+      },
+      "issuesByLevel": {
+        "A": {
+          "count": 0
+        },
+        "AA": {
+          "count": 0
+        },
+        "AAA": {
+          "count": 0
+        }
+      },
+      "tests": {
+        "failing": 0,
+        "passing": 56,
+        "total": 56
+      }
+    },
+    "sourceHash": "9a25987bc2a5e2c82dc3b5b57ba69c74",
+    "status": 200,
+    "clientScriptErrors": [
+      {
+        "message": "ReferenceError: Can't find variable: $",
+        "stacktrace": [
+          {
+            "file": "https://tenon.io/api/file.php?docID=9F26BCAF-40A8-D248-DA93-7A6103E84C44",
+            "line": 100,
+            "function": ""
+          }
+        ]
+      }
+    ],
+    "log": null
+  },
+  "privacidad-y-seguridad.html": {
+    "apiErrors": [],
+    "documentSize": 19922,
+    "globalStats": {
+      "errorDensity": "156",
+      "warningDensity": "12",
+      "allDensity": "168",
+      "stdDev": "402"
+    },
+    "message": "success",
+    "request": {
+      "certainty": "0",
+      "docID": "9CB018E7-C33E-EA12-BE50-1FF205148B28",
+      "importance": "1",
+      "key": "null",
+      "level": "AA",
+      "priority": "0",
+      "projectID": "DEFAULT_PROJECT",
+      "ref": "0",
+      "reportID": "d5c69614-f714-405b-adcf-1c9d28822a67",
+      "responseID": "ba00be2f66e5249968f7d3b781c3d221",
+      "uaString": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36",
+      "url": "https://tenon.io/api/file.php?docID=9CB018E7-C33E-EA12-BE50-1FF205148B28",
+      "viewport": {
+        "height": 768,
+        "width": 1024
+      },
+      "fragment": "0",
+      "store": "0"
+    },
+    "responseExecTime": "0.61",
+    "responseTime": "2015-04-23T14:18:22.471Z",
+    "resultSet": [],
+    "resultSummary": {
+      "density": {
+        "allDensity": 0,
+        "errorDensity": 0,
+        "warningDensity": 0
+      },
+      "issues": {
+        "totalErrors": 0,
+        "totalIssues": 0,
+        "totalWarnings": 0
+      },
+      "issuesByLevel": {
+        "A": {
+          "count": 0
+        },
+        "AA": {
+          "count": 0
+        },
+        "AAA": {
+          "count": 0
+        }
+      },
+      "tests": {
+        "failing": 0,
+        "passing": 56,
+        "total": 56
+      }
+    },
+    "sourceHash": "faa5e9eb74b7507415a4fb072ffa90d7",
+    "status": 200,
+    "clientScriptErrors": [
+      {
+        "message": "ReferenceError: Can't find variable: $",
+        "stacktrace": [
+          {
+            "file": "https://tenon.io/api/file.php?docID=9CB018E7-C33E-EA12-BE50-1FF205148B28",
+            "line": 102,
+            "function": ""
+          }
+        ]
+      }
+    ],
+    "log": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "tenon-starter",
+  "version": "0.0.0",
+  "description": "simple Tenon starter",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Watkins",
+  "license": "",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.6.0",
+    "grunt-tenon-client": "^0.6.1",
+    "gulp-tenon-client": "~0.1.1",
+    "gulp-watch": "~4.2.4",
+    "gulp": "~3.8.11"
+  }
+}

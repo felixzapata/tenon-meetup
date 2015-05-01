@@ -1,8 +1,9 @@
-example1/node_modules
-example2/node_modules
+**/node_modules
+**/bower_components
 
-example1/bower_components
-example2/bower_components
+**/.tmp
+**/.sass-cache
 
-example2/.tmp
-example2/.sass-cache
+**/allHtml.json
+
+

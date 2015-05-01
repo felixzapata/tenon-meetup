@@ -1,5 +1,5 @@
-p1/node_modules
-p2/node_modules
+example1/node_modules
+example2/node_modules
 
-p1/bower_components
-p2/bower_components
+example1/bower_components
+example2/bower_components

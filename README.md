@@ -6,7 +6,7 @@ En el repositorio hay creados tres proyectos de ejemplo para mostrar el uso de l
 ## Requisitos
 Para ejecutar los proyectos es necesario:
 * Disponer de una clave en [Tenon](http://tenon.io/).
-* Disponer de [NodeJS](http://nodejs.org/), [Grunt](http://gruntjs.com/) y [Gulp](http://gulpjs.com/) instalados en nuestro equipo.
+* Disponer de [NodeJS](http://nodejs.org/), [Grunt](http://gruntjs.com/), [Gulp](http://gulpjs.com/), [Ruby y Compass](https://github.com/gruntjs/grunt-contrib-compass) instalados en nuestro equipo.
 
 ## Proyectos de ejemplo
 

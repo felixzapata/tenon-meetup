@@ -14,7 +14,7 @@ gulp.task('tenon', function() {
             read: false
         })
         .pipe(gtenon({
-            key: 'a99fac2034dbcf8928a1be0a6e08e792',
+            key: 'YOUR TENON KEY',
             snippet: true,
             filter: [3, 31],
             saveOutputIn: 'allHtml.json'

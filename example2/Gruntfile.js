@@ -148,7 +148,7 @@
             },
             tenon: {
                 options: {
-                    key: 'a99fac2034dbcf8928a1be0a6e08e792',
+                    key: 'YOUR TENON KEY',
                     level: 'AA'
                 },
                 all: {
